@@ -28,7 +28,7 @@ https://youtu.be/aM2KBUfADak
 En utilisant l'éditeur de requête "Query Tool" proposé par pgAdmin, utilisez les instructions SQL ci-dessous pour créer  et initialiser le contenu de la  table "user".
 
     CREATE TABLE "user"
-    (
+    (   
         id bigint NOT NULL,
         username character varying(500),
         date_created timestamp without time zone NOT NULL DEFAULT now(),
